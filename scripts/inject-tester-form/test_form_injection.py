@@ -1,7 +1,7 @@
 import requests
 
 # URL do formulário (ajuste para o endpoint correto do seu site)
-form_url = "https://prefiraseguros.co.ao/contacto/enviar"  # Exemplo fictício
+form_url = "https://seuwebsite.com/contacto/enviar"  # Exemplo fictício
 
 # Campos simulados do formulário (ajuste conforme seu formulário real)
 form_fields = {
