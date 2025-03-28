@@ -65,7 +65,7 @@ export let options = {
 };
 
 export default function () {
-  http.get('https://prefiraseguros.co.ao');
+  http.get('https://seuwebsite.com');
   sleep(1);
 }
 ```
@@ -95,7 +95,7 @@ class WebsiteUser(HttpUser):
     def index(self):
         self.client.get("/")
 ```
-3. Execute com: `locust -f locustfile.py --host=https://prefiraseguros.co.ao`
+3. Execute com: `locust -f locustfile.py --host=https://seuwebsite.com`
 4. Acesse `http://localhost:8089` para iniciar e visualizar
 
 ### **4.5 Teste de Volume de Dados com JMeter**
@@ -137,7 +137,7 @@ class WebsiteUser(HttpUser):
 
 ---
 
-**Autor:** Equipe de Tecnologia da Jupiter Systems & Solutions
+**Autor:** Dario Andrade
 
 **Propósito:** Garantir que o website esteja preparado para acessos em larga escala com segurança, estabilidade e desempenho.
 
