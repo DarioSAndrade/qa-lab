@@ -42,7 +42,7 @@ Teste de carga é um tipo de teste de desempenho utilizado para verificar como u
 1. Instale o JMeter (https://jmeter.apache.org/download_jmeter.cgi)
 2. Abra o JMeter GUI
 3. Crie um novo "Thread Group" e defina número de usuários, tempo de ramp-up e loops
-4. Adicione um "HTTP Request" apontando para `https://prefiraseguros.co.ao`
+4. Adicione um "HTTP Request" apontando para `https://seuwebsite.com`
 5. Adicione "View Results Tree" para visualizar as respostas
 6. Execute e analise os tempos de resposta
 
